@@ -1,0 +1,1237 @@
+{
+  "ai_topics__t10028__2022": {
+    "signature": "62560f8ed37a",
+    "cursor": "Ils3NiwgMTAwLjAsIDc2LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxNzA4ODM3MjgnXSI=",
+    "n_fetched": 129,
+    "total_count": 4688,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10028,publication_year:2022,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:22+00:00"
+  },
+  "ai_topics__t10028__2023": {
+    "signature": "ec126e77da38",
+    "cursor": "Ils5OCwgJy1JbmZpbml0eScsIDk4LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzNzg1MDY4NjMnXSI=",
+    "n_fetched": 129,
+    "total_count": 8121,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10028,publication_year:2023,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:30+00:00"
+  },
+  "ai_topics__t10028__2024": {
+    "signature": "a886f09ed57e",
+    "cursor": "Ils2NywgMTAwLjAsIDY3LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MDQ2OTcyNDAnXSI=",
+    "n_fetched": 129,
+    "total_count": 7048,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10028,publication_year:2024,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:33+00:00"
+  },
+  "ai_topics__t10028__2025": {
+    "signature": "0b3237898202",
+    "cursor": "IlsyOCwgMTAwLjAsIDI4LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MDgzODgyNDInXSI=",
+    "n_fetched": 129,
+    "total_count": 8712,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10028,publication_year:2025,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:35+00:00"
+  },
+  "ai_topics__t10028__2026": {
+    "signature": "b3d2cf23d711",
+    "cursor": "IlsyLCA5OC4wLCAyLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxMzM1NTM5MDQnXSI=",
+    "n_fetched": 129,
+    "total_count": 14154,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10028,publication_year:2026,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:37+00:00"
+  },
+  "ai_topics__t10181__2022": {
+    "signature": "20fffc87a78e",
+    "cursor": "IlsyMCwgOTguMCwgMjAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDI4MDYwNTMxMiddIg==",
+    "n_fetched": 129,
+    "total_count": 3278,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10181,publication_year:2022,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:39+00:00"
+  },
+  "ai_topics__t10181__2023": {
+    "signature": "b350c03dc8c0",
+    "cursor": "IlsxNywgOTkuMCwgMTcsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDMxNTQ4MTMyNCddIg==",
+    "n_fetched": 129,
+    "total_count": 3811,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10181,publication_year:2023,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:41+00:00"
+  },
+  "ai_topics__t10181__2024": {
+    "signature": "f0b3158e6525",
+    "cursor": "IlsxNywgJy1JbmZpbml0eScsIDE3LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTUwODIxNDknXSI=",
+    "n_fetched": 129,
+    "total_count": 7368,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10181,publication_year:2024,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:43+00:00"
+  },
+  "ai_topics__t10181__2025": {
+    "signature": "6fc3743aa172",
+    "cursor": "Ils5LCAnLUluZmluaXR5JywgOSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDA2NzM0NzkxJ10i",
+    "n_fetched": 129,
+    "total_count": 5970,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10181,publication_year:2025,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:45+00:00"
+  },
+  "ai_topics__t10181__2026": {
+    "signature": "fe87ccc4b03a",
+    "cursor": "IlsxLCA5Ni4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxMzMxOTAyNjQnXSI=",
+    "n_fetched": 129,
+    "total_count": 5003,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10181,publication_year:2026,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:47+00:00"
+  },
+  "ai_topics__t11714__2022": {
+    "signature": "f9fb5e045f4c",
+    "cursor": "Ils0NSwgJy1JbmZpbml0eScsIDQ1LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMjAwODYxMjEnXSI=",
+    "n_fetched": 129,
+    "total_count": 1916,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11714,publication_year:2022,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:49+00:00"
+  },
+  "ai_topics__t11714__2023": {
+    "signature": "b2d0571c6375",
+    "cursor": "Ils0MSwgJy1JbmZpbml0eScsIDQxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzNzcxNjQ0MTgnXSI=",
+    "n_fetched": 129,
+    "total_count": 3144,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11714,publication_year:2023,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:51+00:00"
+  },
+  "ai_topics__t11714__2024": {
+    "signature": "b83ace16c7c6",
+    "cursor": "IlsxOSwgMTAwLjAsIDE5LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTY2MTI5NDQnXSI=",
+    "n_fetched": 129,
+    "total_count": 2007,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11714,publication_year:2024,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:53+00:00"
+  },
+  "ai_topics__t11714__2025": {
+    "signature": "e058d482b23e",
+    "cursor": "Ils3LCA5OS4wLCA3LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MDkxMjk5MzknXSI=",
+    "n_fetched": 129,
+    "total_count": 5288,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11714,publication_year:2025,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:54+00:00"
+  },
+  "ai_topics__t11714__2026": {
+    "signature": "2a314980e39a",
+    "cursor": "IlsyLCA5Ny4wLCAyLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjA0MDI1NDknXSI=",
+    "n_fetched": 129,
+    "total_count": 11456,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11714,publication_year:2026,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:56+00:00"
+  },
+  "ai_topics__t11273__2022": {
+    "signature": "3e8c812fa8ee",
+    "cursor": "IlszNywgOTkuMCwgMzcsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzIwNzg1NTk4NiddIg==",
+    "n_fetched": 129,
+    "total_count": 1804,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11273,publication_year:2022,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:21:58+00:00"
+  },
+  "ai_topics__t11273__2023": {
+    "signature": "1f5caebe0295",
+    "cursor": "IlsyNSwgJy1JbmZpbml0eScsIDI1LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzODc1NTk1NTgnXSI=",
+    "n_fetched": 129,
+    "total_count": 2036,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11273,publication_year:2023,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:00+00:00"
+  },
+  "ai_topics__t11273__2024": {
+    "signature": "d54fe1542a3b",
+    "cursor": "IlsxOSwgOTkuMCwgMTksICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwMTA3MDY1NyddIg==",
+    "n_fetched": 129,
+    "total_count": 1695,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11273,publication_year:2024,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:02+00:00"
+  },
+  "ai_topics__t11273__2025": {
+    "signature": "cd29a33ead95",
+    "cursor": "Ils3LCA5OC4wLCA3LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MTA3NzMwOTEnXSI=",
+    "n_fetched": 129,
+    "total_count": 2810,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11273,publication_year:2025,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:04+00:00"
+  },
+  "ai_topics__t11273__2026": {
+    "signature": "cbc08377cb94",
+    "cursor": "IlsyLCA5Ny4wLCAyLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxMjg3MTIyMTknXSI=",
+    "n_fetched": 129,
+    "total_count": 7731,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11273,publication_year:2026,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:06+00:00"
+  },
+  "ai_topics__t10215__2022": {
+    "signature": "2e1593a104d7",
+    "cursor": "Ils3LCA5OC4wLCA3LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMTMyOTEyOTgnXSI=",
+    "n_fetched": 129,
+    "total_count": 896,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10215,publication_year:2022,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:07+00:00"
+  },
+  "ai_topics__t10215__2023": {
+    "signature": "24683da71185",
+    "cursor": "Ils4LCA5Ny4wLCA4LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzODk4OTEwMjQnXSI=",
+    "n_fetched": 129,
+    "total_count": 919,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10215,publication_year:2023,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:09+00:00"
+  },
+  "ai_topics__t10215__2024": {
+    "signature": "71cb9fa97151",
+    "cursor": "Ils4LCA5OC4wLCA4LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTkzMTQyNDMnXSI=",
+    "n_fetched": 129,
+    "total_count": 2263,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10215,publication_year:2024,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:11+00:00"
+  },
+  "ai_topics__t10215__2025": {
+    "signature": "d9b1c8df39cc",
+    "cursor": "Ils1LCA5OC4wLCA1LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MTE1MDM5OTAnXSI=",
+    "n_fetched": 129,
+    "total_count": 1957,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10215,publication_year:2025,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:13+00:00"
+  },
+  "ai_topics__t10215__2026": {
+    "signature": "e9852ca239a1",
+    "cursor": "IlswLCAnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTI1Nzc3MjUyJ10i",
+    "n_fetched": 129,
+    "total_count": 855,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10215,publication_year:2026,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:14+00:00"
+  },
+  "ai_topics__t10286__2022": {
+    "signature": "2d7afdae9429",
+    "cursor": null,
+    "n_fetched": 122,
+    "total_count": 122,
+    "exhausted": true,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10286,publication_year:2022,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:16+00:00"
+  },
+  "ai_topics__t10286__2023": {
+    "signature": "059d63579f28",
+    "cursor": null,
+    "n_fetched": 115,
+    "total_count": 115,
+    "exhausted": true,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10286,publication_year:2023,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:17+00:00"
+  },
+  "ai_topics__t10286__2024": {
+    "signature": "bbf7d1529c90",
+    "cursor": null,
+    "n_fetched": 125,
+    "total_count": 125,
+    "exhausted": true,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10286,publication_year:2024,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:19+00:00"
+  },
+  "ai_topics__t10286__2025": {
+    "signature": "11034c24ba80",
+    "cursor": "IlswLCAnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDE2MDczODUzJ10i",
+    "n_fetched": 129,
+    "total_count": 511,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10286,publication_year:2025,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:21+00:00"
+  },
+  "ai_topics__t10286__2026": {
+    "signature": "5985d66789b0",
+    "cursor": "IlswLCAnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTI0NTEzODgwJ10i",
+    "n_fetched": 129,
+    "total_count": 1836,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10286,publication_year:2026,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:23+00:00"
+  },
+  "ai_topics__t10203__2022": {
+    "signature": "5126bba01f83",
+    "cursor": "IlszNCwgOTkuMCwgMzQsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDIyMDcyOTUxOCddIg==",
+    "n_fetched": 129,
+    "total_count": 1429,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10203,publication_year:2022,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:24+00:00"
+  },
+  "ai_topics__t10203__2023": {
+    "signature": "07df2698c1e1",
+    "cursor": "IlsyNiwgOTkuMCwgMjYsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDMyMjczMDk0MyddIg==",
+    "n_fetched": 129,
+    "total_count": 1614,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10203,publication_year:2023,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:26+00:00"
+  },
+  "ai_topics__t10203__2024": {
+    "signature": "686bb09bf54f",
+    "cursor": "IlsxOCwgOTkuMCwgMTgsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5MzAzNDIwNSddIg==",
+    "n_fetched": 129,
+    "total_count": 1787,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10203,publication_year:2024,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:28+00:00"
+  },
+  "ai_topics__t10203__2025": {
+    "signature": "fecb6ad96568",
+    "cursor": "Ils2LCA5OS4wLCA2LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MDYxNDkyNzMnXSI=",
+    "n_fetched": 129,
+    "total_count": 2177,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10203,publication_year:2025,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:30+00:00"
+  },
+  "ai_topics__t10203__2026": {
+    "signature": "883e345a5e60",
+    "cursor": "IlsxLCA5Ni4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNTM4MTc4NjUnXSI=",
+    "n_fetched": 129,
+    "total_count": 2759,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10203,publication_year:2026,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:32+00:00"
+  },
+  "ai_topics__t13274__2022": {
+    "signature": "067c57e54e76",
+    "cursor": null,
+    "n_fetched": 128,
+    "total_count": 128,
+    "exhausted": true,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T13274,publication_year:2022,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:33+00:00"
+  },
+  "ai_topics__t13274__2023": {
+    "signature": "8a39e382119e",
+    "cursor": "IlswLCAnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0Mzg2NzIxNjM3J10i",
+    "n_fetched": 129,
+    "total_count": 161,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T13274,publication_year:2023,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:35+00:00"
+  },
+  "ai_topics__t13274__2024": {
+    "signature": "0abc4632b193",
+    "cursor": "IlswLCAnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDAyMzkxMDYwJ10i",
+    "n_fetched": 129,
+    "total_count": 189,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T13274,publication_year:2024,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:37+00:00"
+  },
+  "ai_topics__t13274__2025": {
+    "signature": "42423101e426",
+    "cursor": "IlswLCAnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDE1MTU0NTMyJ10i",
+    "n_fetched": 129,
+    "total_count": 279,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T13274,publication_year:2025,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:39+00:00"
+  },
+  "ai_topics__t13274__2026": {
+    "signature": "170101301a87",
+    "cursor": "IlswLCAnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTM2MDQ1NDgyJ10i",
+    "n_fetched": 129,
+    "total_count": 584,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T13274,publication_year:2026,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:40+00:00"
+  },
+  "ai_topics__t11689__2022": {
+    "signature": "33cd694546e3",
+    "cursor": "IlszNiwgOTkuMCwgMzYsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDI4NTE1NDM4NCddIg==",
+    "n_fetched": 129,
+    "total_count": 2513,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11689,publication_year:2022,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:42+00:00"
+  },
+  "ai_topics__t11689__2023": {
+    "signature": "199722c71198",
+    "cursor": "IlszMiwgOTkuMCwgMzIsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM2MDYxNjA2OSddIg==",
+    "n_fetched": 129,
+    "total_count": 2950,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11689,publication_year:2023,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:44+00:00"
+  },
+  "ai_topics__t11689__2024": {
+    "signature": "63c15e095a17",
+    "cursor": "IlsxOSwgOTkuMCwgMTksICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5OTA4NzkyNiddIg==",
+    "n_fetched": 129,
+    "total_count": 2404,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11689,publication_year:2024,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:46+00:00"
+  },
+  "ai_topics__t11689__2025": {
+    "signature": "54770f49152b",
+    "cursor": "Ils5LCA5OS4wLCA5LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MDk4NDUyMjEnXSI=",
+    "n_fetched": 129,
+    "total_count": 4324,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11689,publication_year:2025,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:47+00:00"
+  },
+  "ai_topics__t11689__2026": {
+    "signature": "29019a6c0312",
+    "cursor": "IlsyLCA5OC4wLCAyLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxMzUwNDA4MjknXSI=",
+    "n_fetched": 129,
+    "total_count": 10119,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11689,publication_year:2026,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:49+00:00"
+  },
+  "ai_topics__t12026__2022": {
+    "signature": "85d9a64cfbb2",
+    "cursor": "Ils0OSwgMTAwLjAsIDQ5LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMTA4ODM1NzEnXSI=",
+    "n_fetched": 129,
+    "total_count": 1287,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T12026,publication_year:2022,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:51+00:00"
+  },
+  "ai_topics__t12026__2023": {
+    "signature": "5d5471d0e695",
+    "cursor": "Ils0MywgOTkuMCwgNDMsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzAyMjE1MzA3OCddIg==",
+    "n_fetched": 129,
+    "total_count": 1693,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T12026,publication_year:2023,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:53+00:00"
+  },
+  "ai_topics__t12026__2024": {
+    "signature": "759da12b4edd",
+    "cursor": "IlszNCwgMTAwLjAsIDM0LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTY1OTg4NTcnXSI=",
+    "n_fetched": 129,
+    "total_count": 1655,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T12026,publication_year:2024,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:55+00:00"
+  },
+  "ai_topics__t12026__2025": {
+    "signature": "506627fc99c9",
+    "cursor": "IlsxNSwgMTAwLjAsIDE1LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MTE4NzMyMDcnXSI=",
+    "n_fetched": 129,
+    "total_count": 3734,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T12026,publication_year:2025,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:57+00:00"
+  },
+  "ai_topics__t12026__2026": {
+    "signature": "61cb1b2622cb",
+    "cursor": "IlszLCA5OC4wLCAzLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxMjg4MDcwNTknXSI=",
+    "n_fetched": 129,
+    "total_count": 9477,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T12026,publication_year:2026,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:22:58+00:00"
+  },
+  "ai_topics__t11307__2022": {
+    "signature": "85fad7276b7e",
+    "cursor": "Ils0OSwgMTAwLjAsIDQ5LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzMxOTA0NTc4ODAnXSI=",
+    "n_fetched": 129,
+    "total_count": 2676,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11307,publication_year:2022,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:00+00:00"
+  },
+  "ai_topics__t11307__2023": {
+    "signature": "804be1920a0e",
+    "cursor": "IlszNSwgMTAwLjAsIDM1LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzODY1MjM3MjEnXSI=",
+    "n_fetched": 129,
+    "total_count": 3044,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11307,publication_year:2023,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:04+00:00"
+  },
+  "ai_topics__t11307__2024": {
+    "signature": "36aa7824cb32",
+    "cursor": "IlsxOCwgOTkuMCwgMTgsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5NTAxMjk4MiddIg==",
+    "n_fetched": 129,
+    "total_count": 1567,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11307,publication_year:2024,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:06+00:00"
+  },
+  "ai_topics__t11307__2025": {
+    "signature": "50cbb0e29487",
+    "cursor": "Ils1LCA5OS4wLCA1LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MDk2NDA1OTQnXSI=",
+    "n_fetched": 129,
+    "total_count": 2167,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11307,publication_year:2025,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:08+00:00"
+  },
+  "ai_topics__t11307__2026": {
+    "signature": "6e6732cc5185",
+    "cursor": "IlsxLCA5Ni4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxMjcxNzE4ODMnXSI=",
+    "n_fetched": 129,
+    "total_count": 3679,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T11307,publication_year:2026,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:10+00:00"
+  },
+  "ai_topics__t10036__2022": {
+    "signature": "caf65a8efc90",
+    "cursor": "IlsxMTksIDEwMC4wLCAxMTksICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzAxMzMxMDY4NiddIg==",
+    "n_fetched": 129,
+    "total_count": 4529,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10036,publication_year:2022,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:12+00:00"
+  },
+  "ai_topics__t10036__2023": {
+    "signature": "ef69d1a2b9a5",
+    "cursor": "Ils5OCwgMTAwLjAsIDk4LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMTM2Mzk1MDcnXSI=",
+    "n_fetched": 129,
+    "total_count": 5522,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10036,publication_year:2023,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:14+00:00"
+  },
+  "ai_topics__t10036__2024": {
+    "signature": "27ad62590778",
+    "cursor": "Ils1MiwgMTAwLjAsIDUyLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTA4MTMwMjEnXSI=",
+    "n_fetched": 129,
+    "total_count": 3608,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10036,publication_year:2024,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:16+00:00"
+  },
+  "ai_topics__t10036__2025": {
+    "signature": "3495e1d84cb4",
+    "cursor": "IlsyMiwgMTAwLjAsIDIyLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MTIzNDgwOTknXSI=",
+    "n_fetched": 129,
+    "total_count": 5469,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10036,publication_year:2025,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:18+00:00"
+  },
+  "ai_topics__t10036__2026": {
+    "signature": "12c7faad4859",
+    "cursor": "Ils0LCA5OS4wLCA0LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxMjYyNjg1OTMnXSI=",
+    "n_fetched": 129,
+    "total_count": 8686,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10036,publication_year:2026,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:20+00:00"
+  },
+  "ai_topics__t10201__2022": {
+    "signature": "dae5d842ff4e",
+    "cursor": "IlsxNiwgJy1JbmZpbml0eScsIDE2LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyMjQzMjIxMDMnXSI=",
+    "n_fetched": 129,
+    "total_count": 1673,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10201,publication_year:2022,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:22+00:00"
+  },
+  "ai_topics__t10201__2023": {
+    "signature": "4e26f79c884d",
+    "cursor": "IlsxMiwgOTkuMCwgMTIsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5MDAzNzgwMSddIg==",
+    "n_fetched": 129,
+    "total_count": 1802,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10201,publication_year:2023,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:24+00:00"
+  },
+  "ai_topics__t10201__2024": {
+    "signature": "0b2fe50031dd",
+    "cursor": "IlsxMCwgOTkuMCwgMTAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwMzI4NTA0MCddIg==",
+    "n_fetched": 129,
+    "total_count": 2000,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10201,publication_year:2024,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:25+00:00"
+  },
+  "ai_topics__t10201__2025": {
+    "signature": "4f708bf3541a",
+    "cursor": "Ils0LCA5OC4wLCA0LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MDk1ODE1NTInXSI=",
+    "n_fetched": 129,
+    "total_count": 2055,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10201,publication_year:2025,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:27+00:00"
+  },
+  "ai_topics__t10201__2026": {
+    "signature": "f75097af44e7",
+    "cursor": "IlswLCAnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTIxMDc5MjczJ10i",
+    "n_fetched": 129,
+    "total_count": 2624,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10201,publication_year:2026,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:29+00:00"
+  },
+  "ai_topics__t10462__2022": {
+    "signature": "71c48d71ce8d",
+    "cursor": "IlsyMywgOTguMCwgMjMsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjk0NDE4NzQ1NiddIg==",
+    "n_fetched": 129,
+    "total_count": 1704,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10462,publication_year:2022,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:31+00:00"
+  },
+  "ai_topics__t10462__2023": {
+    "signature": "e2d6832d7e42",
+    "cursor": "IlsxNywgOTkuMCwgMTcsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM2MTgwMjE2NyddIg==",
+    "n_fetched": 129,
+    "total_count": 1805,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10462,publication_year:2023,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:33+00:00"
+  },
+  "ai_topics__t10462__2024": {
+    "signature": "6160096064b3",
+    "cursor": "IlsxMiwgOTkuMCwgMTIsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5NDY5ODQyNiddIg==",
+    "n_fetched": 129,
+    "total_count": 1496,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10462,publication_year:2024,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:35+00:00"
+  },
+  "ai_topics__t10462__2025": {
+    "signature": "8cab51a99ec6",
+    "cursor": "Ils2LCA5OS4wLCA2LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MTQ3NDY3OTYnXSI=",
+    "n_fetched": 129,
+    "total_count": 2473,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10462,publication_year:2025,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:36+00:00"
+  },
+  "ai_topics__t10462__2026": {
+    "signature": "d90aee9b608c",
+    "cursor": "IlsxLCA5Ni4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxMzg5NTA1OTknXSI=",
+    "n_fetched": 129,
+    "total_count": 5982,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.id:T10462,publication_year:2026,type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:38+00:00"
+  },
+  "focus_queries__retrieval-augmented-generation__2022": {
+    "signature": "bdbb43795d37",
+    "cursor": null,
+    "n_fetched": 14,
+    "total_count": 14,
+    "exhausted": true,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2022,title_and_abstract.search:\"retrieval-augmented generation\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-09-30T15:10:22+00:00"
+  },
+  "focus_queries__retrieval-augmented-generation__2023": {
+    "signature": "fb3e9187af3f",
+    "cursor": null,
+    "n_fetched": 109,
+    "total_count": 109,
+    "exhausted": true,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2023,title_and_abstract.search:\"retrieval-augmented generation\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:40+00:00"
+  },
+  "focus_queries__retrieval-augmented-generation__2024": {
+    "signature": "45e75fc0b971",
+    "cursor": "Ils0LCAnLUluZmluaXR5JywgNCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0Mzk5MTE1Mzc1J10i",
+    "n_fetched": 240,
+    "total_count": 1147,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2024,title_and_abstract.search:\"retrieval-augmented generation\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:42+00:00"
+  },
+  "focus_queries__retrieval-augmented-generation__2025": {
+    "signature": "218006eac492",
+    "cursor": "Ils2LCAnLUluZmluaXR5JywgNiwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDA3Njk1ODI2J10i",
+    "n_fetched": 240,
+    "total_count": 2731,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2025,title_and_abstract.search:\"retrieval-augmented generation\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:44+00:00"
+  },
+  "focus_queries__retrieval-augmented-generation__2026": {
+    "signature": "8b17ac144575",
+    "cursor": "IlsxLCA5Ni4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjAwNTIxNTQnXSI=",
+    "n_fetched": 240,
+    "total_count": 5038,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2026,title_and_abstract.search:\"retrieval-augmented generation\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:46+00:00"
+  },
+  "focus_queries__knowledge-graph__2022": {
+    "signature": "8eb77fd0a9a6",
+    "cursor": "IlsxNCwgOTguMCwgMTQsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDIyMTAxMzM1NiddIg==",
+    "n_fetched": 240,
+    "total_count": 1229,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2022,title_and_abstract.search:\"knowledge graph\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:49+00:00"
+  },
+  "focus_queries__knowledge-graph__2023": {
+    "signature": "c6baf1a43827",
+    "cursor": "IlsxNSwgOTkuMCwgMTUsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM4NTYyNjk1MCddIg==",
+    "n_fetched": 240,
+    "total_count": 1595,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2023,title_and_abstract.search:\"knowledge graph\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:51+00:00"
+  },
+  "focus_queries__knowledge-graph__2024": {
+    "signature": "62b44124eecf",
+    "cursor": "IlsxMSwgOTkuMCwgMTEsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5OTY1NzY3OSddIg==",
+    "n_fetched": 240,
+    "total_count": 1999,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2024,title_and_abstract.search:\"knowledge graph\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:53+00:00"
+  },
+  "focus_queries__knowledge-graph__2025": {
+    "signature": "7d2e7f23076b",
+    "cursor": "Ils1LCA5OS4wLCA1LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MTEzNDM1NTknXSI=",
+    "n_fetched": 240,
+    "total_count": 2788,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2025,title_and_abstract.search:\"knowledge graph\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:56+00:00"
+  },
+  "focus_queries__knowledge-graph__2026": {
+    "signature": "01298b6d3b0b",
+    "cursor": "IlsxLCA5Ni4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjAwMTU4NTAnXSI=",
+    "n_fetched": 240,
+    "total_count": 4854,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2026,title_and_abstract.search:\"knowledge graph\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:23:58+00:00"
+  },
+  "focus_queries__large-language-model__2022": {
+    "signature": "b97f04f83b3d",
+    "cursor": "Ils2LCAnLUluZmluaXR5JywgNiwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0MzA5Mzk0MjQ1J10i",
+    "n_fetched": 240,
+    "total_count": 540,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2022,title_and_abstract.search:\"large language model\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:24:01+00:00"
+  },
+  "focus_queries__large-language-model__2023": {
+    "signature": "1a2e4041856d",
+    "cursor": "Ils1OCwgMTAwLjAsIDU4LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzODc2Mjc1MTUnXSI=",
+    "n_fetched": 240,
+    "total_count": 6051,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2023,title_and_abstract.search:\"large language model\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:24:03+00:00"
+  },
+  "focus_queries__large-language-model__2024": {
+    "signature": "5f42b466443b",
+    "cursor": "Ils3MiwgMTAwLjAsIDcyLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MDExNzExMTAnXSI=",
+    "n_fetched": 240,
+    "total_count": 15971,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2024,title_and_abstract.search:\"large language model\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:24:06+00:00"
+  },
+  "focus_queries__large-language-model__2025": {
+    "signature": "401340226389",
+    "cursor": "IlszNSwgMTAwLjAsIDM1LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MTMzMDU4NjInXSI=",
+    "n_fetched": 240,
+    "total_count": 24951,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2025,title_and_abstract.search:\"large language model\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:24:08+00:00"
+  },
+  "focus_queries__large-language-model__2026": {
+    "signature": "33d5e014cd21",
+    "cursor": "Ils1LCA5OC4wLCA1LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MTUxODg4MTAnXSI=",
+    "n_fetched": 240,
+    "total_count": 37731,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2026,title_and_abstract.search:\"large language model\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:24:11+00:00"
+  },
+  "focus_queries__question-answering__2022": {
+    "signature": "818d82976ba2",
+    "cursor": "IlsxMiwgOTguMCwgMTIsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDIxMDU3NjAxOCddIg==",
+    "n_fetched": 240,
+    "total_count": 2344,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2022,title_and_abstract.search:\"question answering\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:24:13+00:00"
+  },
+  "focus_queries__question-answering__2023": {
+    "signature": "4fef2148f667",
+    "cursor": "IlsxNCwgJy1JbmZpbml0eScsIDE0LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzODc2ODc5MDQnXSI=",
+    "n_fetched": 240,
+    "total_count": 1862,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2023,title_and_abstract.search:\"question answering\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:24:16+00:00"
+  },
+  "focus_queries__question-answering__2024": {
+    "signature": "c031b735f739",
+    "cursor": "Ils5LCA5OS4wLCA5LCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTI1ODg5MTEnXSI=",
+    "n_fetched": 240,
+    "total_count": 2538,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2024,title_and_abstract.search:\"question answering\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:24:18+00:00"
+  },
+  "focus_queries__question-answering__2025": {
+    "signature": "058c47586bf1",
+    "cursor": "Ils1LCAnLUluZmluaXR5JywgNSwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDA5Mjg3ODM5J10i",
+    "n_fetched": 240,
+    "total_count": 3134,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2025,title_and_abstract.search:\"question answering\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:24:20+00:00"
+  },
+  "focus_queries__question-answering__2026": {
+    "signature": "a9fce609329d",
+    "cursor": "IlswLCAnLUluZmluaXR5JywgMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDA3NzcxMDc0J10i",
+    "n_fetched": 240,
+    "total_count": 4396,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2026,title_and_abstract.search:\"question answering\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:24:23+00:00"
+  },
+  "focus_queries__graph-neural-network__2022": {
+    "signature": "12ae26512085",
+    "cursor": "IlszMiwgMTAwLjAsIDMyLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzMTI5NDAxNDAnXSI=",
+    "n_fetched": 240,
+    "total_count": 1761,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2022,title_and_abstract.search:\"graph neural network\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:24:26+00:00"
+  },
+  "focus_queries__graph-neural-network__2023": {
+    "signature": "2bf8ff001568",
+    "cursor": "IlsyMywgOTkuMCwgMjMsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM2NTc5MDQxNSddIg==",
+    "n_fetched": 240,
+    "total_count": 2273,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2023,title_and_abstract.search:\"graph neural network\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:24:28+00:00"
+  },
+  "focus_queries__graph-neural-network__2024": {
+    "signature": "7d12ed5d557d",
+    "cursor": "IlsyMSwgMTAwLjAsIDIxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTI5ODAwNjMnXSI=",
+    "n_fetched": 240,
+    "total_count": 2897,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2024,title_and_abstract.search:\"graph neural network\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:24:30+00:00"
+  },
+  "focus_queries__graph-neural-network__2025": {
+    "signature": "023f6b04e124",
+    "cursor": "IlsxMCwgOTkuMCwgMTAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwNjI2OTM5OSddIg==",
+    "n_fetched": 240,
+    "total_count": 3785,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2025,title_and_abstract.search:\"graph neural network\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:24:33+00:00"
+  },
+  "focus_queries__graph-neural-network__2026": {
+    "signature": "8300aa431526",
+    "cursor": "IlsxLCA5Ni4wLCAxLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxMzExODY0NzcnXSI=",
+    "n_fetched": 240,
+    "total_count": 4851,
+    "exhausted": false,
+    "query": {
+      "filter": "has_abstract:true,is_paratext:false,is_retracted:false,primary_topic.field.id:17,publication_year:2026,title_and_abstract.search:\"graph neural network\",type:article|preprint",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,ids,title,display_name,publication_year,publication_date,type,language,primary_location,open_access,authorships,primary_topic,topics,keywords,cited_by_count,fwci,referenced_works_count,referenced_works,abstract_inverted_index,is_retracted,is_paratext"
+    },
+    "updated": "2026-10-01T01:24:36+00:00"
+  }
+}

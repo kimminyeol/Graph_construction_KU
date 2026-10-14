@@ -1,0 +1,406 @@
+{
+  "id_convention": "<prefix>:<local id>",
+  "node_base_columns": [
+    "node_id",
+    "node_type",
+    "name",
+    "source",
+    "source_id"
+  ],
+  "edge_columns": [
+    "src_id",
+    "rel",
+    "dst_id",
+    "src_type",
+    "dst_type",
+    "weight",
+    "source",
+    "props"
+  ],
+  "node_types": {
+    "Paper": {
+      "prefix": "paper",
+      "table": "papers",
+      "description": "A scholarly work.",
+      "properties": [
+        "doi",
+        "year",
+        "publication_date",
+        "work_type",
+        "language",
+        "abstract",
+        "cited_by_count",
+        "fwci",
+        "referenced_works_count",
+        "n_refs_internal",
+        "is_oa",
+        "oa_url",
+        "venue_id",
+        "primary_topic_id",
+        "referenced_works",
+        "corpus_units",
+        "metadata_status",
+        "alt_ids"
+      ]
+    },
+    "Author": {
+      "prefix": "author",
+      "table": "authors",
+      "description": "A person who authored papers.",
+      "properties": [
+        "orcid",
+        "id_source",
+        "n_papers",
+        "alt_ids"
+      ]
+    },
+    "Institution": {
+      "prefix": "inst",
+      "table": "institutions",
+      "description": "A research organisation.",
+      "properties": [
+        "ror",
+        "country_code",
+        "inst_type",
+        "n_papers"
+      ]
+    },
+    "Venue": {
+      "prefix": "venue",
+      "table": "venues",
+      "description": "A journal, conference, or repository.",
+      "properties": [
+        "venue_type",
+        "issn_l",
+        "n_papers"
+      ]
+    },
+    "Topic": {
+      "prefix": "topic",
+      "table": "topics",
+      "description": "A research area at one level of the domain > field > subfield > topic hierarchy.",
+      "properties": [
+        "level",
+        "n_papers"
+      ]
+    },
+    "Method": {
+      "prefix": "method",
+      "table": "methods",
+      "description": "A technique/algorithm/framework.",
+      "properties": [
+        "aliases",
+        "n_papers"
+      ]
+    },
+    "Model": {
+      "prefix": "model",
+      "table": "models",
+      "description": "A (usually pretrained) model artifact.",
+      "properties": [
+        "aliases",
+        "n_papers",
+        "url",
+        "hf_downloads",
+        "hf_likes",
+        "pipeline_tag",
+        "library",
+        "license"
+      ]
+    },
+    "Dataset": {
+      "prefix": "dataset",
+      "table": "datasets",
+      "description": "A dataset or benchmark.",
+      "properties": [
+        "aliases",
+        "n_papers",
+        "url",
+        "hf_downloads",
+        "hf_likes",
+        "license"
+      ]
+    },
+    "Task": {
+      "prefix": "task",
+      "table": "tasks",
+      "description": "A problem setting, e.g. multi-hop QA.",
+      "properties": [
+        "aliases",
+        "n_papers"
+      ]
+    },
+    "Metric": {
+      "prefix": "metric",
+      "table": "metrics",
+      "description": "An evaluation metric, e.g. Recall@5.",
+      "properties": [
+        "aliases",
+        "n_papers"
+      ]
+    },
+    "Experiment": {
+      "prefix": "exp",
+      "table": "experiments",
+      "description": "One reported (method/model, dataset, metric) result in a paper.",
+      "properties": [
+        "paper_id",
+        "score",
+        "setting"
+      ]
+    },
+    "Community": {
+      "prefix": "community",
+      "table": "communities",
+      "description": "A cluster of related papers (graph community detection).",
+      "properties": [
+        "level",
+        "summary",
+        "keywords",
+        "n_papers"
+      ]
+    }
+  },
+  "edge_types": {
+    "AUTHORED": {
+      "src": [
+        "Author"
+      ],
+      "dst": [
+        "Paper"
+      ],
+      "description": "Author wrote paper.",
+      "properties": [
+        "author_position",
+        "is_corresponding"
+      ],
+      "same_type": false
+    },
+    "AFFILIATED_WITH": {
+      "src": [
+        "Author"
+      ],
+      "dst": [
+        "Institution"
+      ],
+      "description": "Author listed this affiliation on corpus papers.",
+      "properties": [
+        "first_year",
+        "last_year"
+      ],
+      "same_type": false
+    },
+    "CITES": {
+      "src": [
+        "Paper"
+      ],
+      "dst": [
+        "Paper"
+      ],
+      "description": "Paper references paper.",
+      "properties": [],
+      "same_type": false
+    },
+    "SIMILAR_TO": {
+      "src": [
+        "Paper"
+      ],
+      "dst": [
+        "Paper"
+      ],
+      "description": "Content similarity (title+abstract embeddings). Symmetric: stored once per pair, src < dst by id; weight = cosine similarity.",
+      "properties": [
+        "model",
+        "rank"
+      ],
+      "same_type": false
+    },
+    "PUBLISHED_AT": {
+      "src": [
+        "Paper"
+      ],
+      "dst": [
+        "Venue"
+      ],
+      "description": "Primary publication venue.",
+      "properties": [],
+      "same_type": false
+    },
+    "HAS_TOPIC": {
+      "src": [
+        "Paper"
+      ],
+      "dst": [
+        "Topic"
+      ],
+      "description": "Topic assignment.",
+      "properties": [
+        "is_primary"
+      ],
+      "same_type": false
+    },
+    "SUBTOPIC_OF": {
+      "src": [
+        "Topic"
+      ],
+      "dst": [
+        "Topic"
+      ],
+      "description": "Topic hierarchy (child -> parent).",
+      "properties": [],
+      "same_type": false
+    },
+    "PROPOSES": {
+      "src": [
+        "Paper"
+      ],
+      "dst": [
+        "Method",
+        "Model",
+        "Dataset",
+        "Metric"
+      ],
+      "description": "Paper introduces this entity.",
+      "properties": [],
+      "same_type": false
+    },
+    "USES_METHOD": {
+      "src": [
+        "Paper",
+        "Experiment"
+      ],
+      "dst": [
+        "Method"
+      ],
+      "description": "Uses a method.",
+      "properties": [],
+      "same_type": false
+    },
+    "USES_MODEL": {
+      "src": [
+        "Paper",
+        "Experiment"
+      ],
+      "dst": [
+        "Model"
+      ],
+      "description": "Uses a model.",
+      "properties": [],
+      "same_type": false
+    },
+    "USES_DATASET": {
+      "src": [
+        "Paper"
+      ],
+      "dst": [
+        "Dataset"
+      ],
+      "description": "Uses a dataset.",
+      "properties": [],
+      "same_type": false
+    },
+    "ADDRESSES": {
+      "src": [
+        "Paper",
+        "Experiment",
+        "Model",
+        "Dataset"
+      ],
+      "dst": [
+        "Task"
+      ],
+      "description": "Targets / is intended for a task.",
+      "properties": [],
+      "same_type": false
+    },
+    "REPORTS": {
+      "src": [
+        "Paper"
+      ],
+      "dst": [
+        "Experiment"
+      ],
+      "description": "Paper reports an experiment.",
+      "properties": [],
+      "same_type": false
+    },
+    "EVALUATED_ON": {
+      "src": [
+        "Experiment"
+      ],
+      "dst": [
+        "Dataset"
+      ],
+      "description": "Experiment's evaluation data.",
+      "properties": [],
+      "same_type": false
+    },
+    "USES_METRIC": {
+      "src": [
+        "Paper",
+        "Experiment"
+      ],
+      "dst": [
+        "Metric"
+      ],
+      "description": "Metric a paper / an experiment reports.",
+      "properties": [],
+      "same_type": false
+    },
+    "TRAINED_ON": {
+      "src": [
+        "Model"
+      ],
+      "dst": [
+        "Dataset"
+      ],
+      "description": "Model training data (e.g. HF card).",
+      "properties": [],
+      "same_type": false
+    },
+    "DERIVED_FROM": {
+      "src": [
+        "Model"
+      ],
+      "dst": [
+        "Model"
+      ],
+      "description": "Fine-tune / quantisation of a base model.",
+      "properties": [],
+      "same_type": false
+    },
+    "BELONGS_TO": {
+      "src": [
+        "Paper"
+      ],
+      "dst": [
+        "Community"
+      ],
+      "description": "Community membership.",
+      "properties": [],
+      "same_type": false
+    },
+    "SYNONYM_OF": {
+      "src": [
+        "Method",
+        "Model",
+        "Dataset",
+        "Task",
+        "Metric"
+      ],
+      "dst": [
+        "Method",
+        "Model",
+        "Dataset",
+        "Task",
+        "Metric"
+      ],
+      "description": "Alias -> canonical entity. Kept as an edge (not merged) to preserve provenance.",
+      "properties": [
+        "similarity",
+        "method"
+      ],
+      "same_type": true
+    }
+  }
+}

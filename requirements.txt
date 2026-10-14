@@ -1,0 +1,13 @@
+numpy==2.4.6
+pandas==3.0.6
+pyarrow==25.0.1
+scipy==1.17.1
+scikit-learn==1.9.1
+networkx==3.6.1
+python-igraph==1.0.0
+leidenalg==0.12.0
+torch==2.14.1
+sentence-transformers==6.1.0
+requests==2.34.2
+PyYAML==6.0.3
+pytest

@@ -1,0 +1,172 @@
+# Research knowledge graph of 9,981 AI papers (OpenAlex, 2022-2026).
+# corpus.fixed_from: the build starts from the fixed sample of works in data/processed/seed/corpus.parquet;
+# remove it to select a new sample from data/raw/openalex (and `collect` to fetch more).
+run_name: kg
+paths:
+  data_dir: data
+  exports_dir: exports
+openalex:
+  min_interval_s: 0.15
+  min_remaining_usd: 0.005
+corpus:
+  max_papers: 10000
+  years:
+  - 2022
+  - 2026
+  stratify_by_year: true
+  oversample: 1.5
+  sort: cited_by_count:desc
+  merge_versions:
+    enabled: true
+    max_year_gap: 3
+    v2: true
+    title_author_overlap: 0.5
+    embedding_cos: 0.97
+    author_overlap: 0.6
+    same_type_author_overlap: 0.95
+    same_abstract: true
+  base_filters:
+    has_abstract: true
+    type:
+    - article
+    - preprint
+    is_paratext: false
+    is_retracted: false
+  local_filters:
+    min_abstract_words: 40
+    max_abstract_words: 1200
+    exclude_venues:
+    - S4306400562
+    - S4377196282
+    exclude_doi_prefixes:
+    - 10.5281/
+    - 10.6084/
+    exclude_ids:
+    - W4385245566
+  sources:
+  - name: ai_topics
+    kind: topic
+    share: 0.6
+    items:
+      T10028: Topic Modeling
+      T10181: Natural Language Processing Techniques
+      T11714: Multimodal Machine Learning Applications
+      T11273: Advanced Graph Neural Networks
+      T10215: Semantic Web and Ontologies
+      T10286: Information Retrieval and Search Behavior
+      T10203: Recommender Systems and Techniques
+      T13274: Expert finding and Q&A systems
+      T11689: Adversarial Robustness in Machine Learning
+      T12026: Explainable Artificial Intelligence (XAI)
+      T11307: Domain Adaptation and Few-Shot Learning
+      T10036: Advanced Neural Network Applications
+      T10201: Speech Recognition and Synthesis
+      T10462: Reinforcement Learning in Robotics
+  - name: focus_queries
+    kind: search
+    share: 0.4
+    extra_filters:
+      primary_topic.field.id: 17
+    items:
+    - '"retrieval-augmented generation"'
+    - '"knowledge graph"'
+    - '"large language model"'
+    - '"question answering"'
+    - '"graph neural network"'
+  fixed_from: seed
+verify:
+  enabled: true
+  title_threshold: 0.75
+  author_threshold: 0.5
+  max_year_gap: 2
+  legacy_id_last_year: 2021
+  use_datacite: true
+  abstracts:
+    registry_overlap: 0.5
+    min_gain: 0.05
+    low_cos: 0.55
+    low_lex: 0.15
+    flag_cos: 0.62
+    flag_lex: 0.34
+semanticscholar:
+  only_missing: true
+embedding:
+  model: BAAI/bge-base-en-v1.5
+  gpu: 0
+  batch_size: 128
+  max_seq_length: 512
+  k: 10
+  min_similarity: 0.0
+communities:
+  levels:
+  - level: 0
+    resolution: 1.0
+  - level: 1
+    resolution: 3.0
+  weights:
+    CITES: 1.0
+    SIMILAR_TO: 1.0
+    shared_model: 1.0
+    shared_dataset: 1.0
+    shared_method: 1.0
+    shared_task: 1.0
+    shared_topic: 0.5
+  hub_normalize: true
+  max_hub_papers: 200
+  min_size: 5
+  seed: 42
+graph:
+  citations: internal
+  max_topics_per_paper: 3
+  min_topic_score: 0.5
+  topic_hierarchy: true
+  author_merge: true
+  author_merge_min_overlap: 0.5
+export:
+  graphml: true
+  graphml_include_abstract: false
+  neo4j_csv: true
+arxiv_refs:
+  only_missing: true
+  min_interval_s: 0.5
+extract:
+  model: gpt-4o-mini
+  prompt_version: v2
+  params:
+    temperature: 0
+    max_tokens: 1200
+  price:
+    in: 0.15
+    cached_in: 0.075
+    out: 0.6
+  max_usd: 10
+  workers: 16
+  min_abstract_chars: 200
+  ground:
+  - method
+  - model
+  - dataset
+  - metric
+link:
+  tiers:
+  - t1
+  - t2
+  - t3
+link_judge:
+  batch: 25
+  max_usd: 4
+  params:
+    temperature: 0
+    max_tokens: 1500
+  stages:
+  - model: gpt-4.1-mini
+    prompt_version: v2
+  - model: gpt-4.1
+    prompt_version: v2
+summarize:
+  model: gpt-4.1
+  prompt_version: v2
+  max_usd: 2
+  params:
+    temperature: 0
+    max_tokens: 900

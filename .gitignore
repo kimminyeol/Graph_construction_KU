@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+data/logs/
+# rebuilt by the pipeline
+data/processed/*
+!data/processed/seed/
+data/raw/embeddings/
+*.tmp
+*.tmp.npz
+# large or machine-specific exports (rebuilt by `--steps export`)
+exports/*/graph.graphml
+exports/*/neo4j/
+exports/*/manifest.json

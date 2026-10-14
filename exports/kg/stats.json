@@ -1,0 +1,425 @@
+{
+  "validation": {
+    "ok": true,
+    "errors": []
+  },
+  "nodes": {
+    "Paper": 9981,
+    "Author": 43432,
+    "Institution": 4907,
+    "Venue": 1666,
+    "Topic": 847,
+    "Method": 14322,
+    "Model": 5000,
+    "Dataset": 3920,
+    "Task": 8772,
+    "Metric": 2339,
+    "Experiment": 6303,
+    "Community": 60
+  },
+  "edges": {
+    "SIMILAR_TO": 78460,
+    "AUTHORED": 55908,
+    "AFFILIATED_WITH": 47702,
+    "CITES": 30891,
+    "HAS_TOPIC": 23753,
+    "BELONGS_TO": 19961,
+    "ADDRESSES": 15956,
+    "USES_METHOD": 13684,
+    "PROPOSES": 13029,
+    "USES_METRIC": 11752,
+    "PUBLISHED_AT": 9927,
+    "USES_MODEL": 7699,
+    "REPORTS": 6303,
+    "USES_DATASET": 5318,
+    "EVALUATED_ON": 2918,
+    "SYNONYM_OF": 2670,
+    "SUBTOPIC_OF": 843
+  },
+  "totals": {
+    "nodes": 101549,
+    "edges": 346774
+  },
+  "mean_degree_by_type": {
+    "Paper": 38.05,
+    "Author": 2.39,
+    "Institution": 9.72,
+    "Venue": 5.96,
+    "Topic": 30.03,
+    "Method": 1.76,
+    "Model": 2.25,
+    "Dataset": 2.35,
+    "Task": 2.02,
+    "Metric": 5.23,
+    "Experiment": 3.09,
+    "Community": 332.68
+  },
+  "graph_connected_components": {
+    "count": 1,
+    "largest": 101549,
+    "largest_frac": 1.0
+  },
+  "papers": {
+    "count": 9981,
+    "abstract_coverage": 0.9995,
+    "open_access_frac": 0.7574,
+    "by_year": {
+      "2022": 1926,
+      "2023": 1999,
+      "2024": 2040,
+      "2025": 2034,
+      "2026": 1982
+    },
+    "by_type": {
+      "article": 8583,
+      "preprint": 1398
+    },
+    "with_reference_list_by_type": {
+      "article": 0.9042,
+      "preprint": 0.0536
+    },
+    "median_cited_by_count": 23.0,
+    "mean_authors_per_paper": 5.6
+  },
+  "citations_internal": {
+    "edges": 30891,
+    "papers_citing_any": 6129,
+    "papers_cited_by_any": 5045,
+    "papers_isolated": 2103,
+    "largest_wcc": 7611,
+    "largest_wcc_frac": 0.7625,
+    "mean_internal_refs": 3.09,
+    "by_source": {
+      "openalex": 17241,
+      "semanticscholar": 10316,
+      "arxiv_html": 3334
+    }
+  },
+  "authors": {
+    "id_source": {
+      "openalex": 39695,
+      "name": 2685,
+      "orcid": 1052
+    }
+  },
+  "top": {
+    "internally_cited_papers": [
+      {
+        "name": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+        "year": 2022,
+        "internal_citations": 470
+      },
+      {
+        "name": "Training language models to follow instructions with human feedback",
+        "year": 2022,
+        "internal_citations": 419
+      },
+      {
+        "name": "GPT-4 Technical Report",
+        "year": 2023,
+        "internal_citations": 392
+      },
+      {
+        "name": "PaLM: Scaling Language Modeling with Pathways",
+        "year": 2022,
+        "internal_citations": 369
+      },
+      {
+        "name": "LLaMA: Open and Efficient Foundation Language Models",
+        "year": 2023,
+        "internal_citations": 342
+      },
+      {
+        "name": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+        "year": 2023,
+        "internal_citations": 298
+      },
+      {
+        "name": "Survey of Hallucination in Natural Language Generation",
+        "year": 2022,
+        "internal_citations": 211
+      },
+      {
+        "name": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing",
+        "year": 2022,
+        "internal_citations": 198
+      },
+      {
+        "name": "Large language models encode clinical knowledge",
+        "year": 2023,
+        "internal_citations": 190
+      },
+      {
+        "name": "Large Language Models are Zero-Shot Reasoners",
+        "year": 2022,
+        "internal_citations": 185
+      }
+    ],
+    "authors": [
+      {
+        "name": "Dusit Tao Niyato",
+        "n_papers": 50
+      },
+      {
+        "name": "Philip S. Yu",
+        "n_papers": 40
+      },
+      {
+        "name": "Shirui Pan",
+        "n_papers": 26
+      },
+      {
+        "name": "Qing Li",
+        "n_papers": 21
+      },
+      {
+        "name": "Ji-Rong Wen",
+        "n_papers": 20
+      },
+      {
+        "name": "Dacheng Tao",
+        "n_papers": 20
+      },
+      {
+        "name": "Tat‐Seng Chua",
+        "n_papers": 20
+      },
+      {
+        "name": "Xiangnan He",
+        "n_papers": 19
+      },
+      {
+        "name": "Xuelong Li",
+        "n_papers": 19
+      },
+      {
+        "name": "Jiawen Kang",
+        "n_papers": 19
+      }
+    ],
+    "institutions": [
+      {
+        "name": "Chinese Academy of Sciences",
+        "n_papers": 303
+      },
+      {
+        "name": "Tsinghua University",
+        "n_papers": 268
+      },
+      {
+        "name": "Nanyang Technological University",
+        "n_papers": 257
+      },
+      {
+        "name": "Zhejiang University",
+        "n_papers": 209
+      },
+      {
+        "name": "Shanghai Jiao Tong University",
+        "n_papers": 175
+      },
+      {
+        "name": "Peking University",
+        "n_papers": 170
+      },
+      {
+        "name": "University of Chinese Academy of Sciences",
+        "n_papers": 150
+      },
+      {
+        "name": "University of Science and Technology of China",
+        "n_papers": 149
+      },
+      {
+        "name": "Sun Yat-sen University",
+        "n_papers": 141
+      },
+      {
+        "name": "National University of Singapore",
+        "n_papers": 138
+      }
+    ],
+    "venues": [
+      {
+        "name": "arXiv (Cornell University)",
+        "n_papers": 1280
+      },
+      {
+        "name": "IEEE Access",
+        "n_papers": 342
+      },
+      {
+        "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "n_papers": 285
+      },
+      {
+        "name": "IEEE Transactions on Knowledge and Data Engineering",
+        "n_papers": 199
+      },
+      {
+        "name": "Scientific Reports",
+        "n_papers": 198
+      },
+      {
+        "name": "IEEE Transactions on Neural Networks and Learning Systems",
+        "n_papers": 187
+      },
+      {
+        "name": "ACM Computing Surveys",
+        "n_papers": 182
+      },
+      {
+        "name": "Applied Sciences",
+        "n_papers": 167
+      },
+      {
+        "name": "Electronics",
+        "n_papers": 145
+      },
+      {
+        "name": "ACM Transactions on Information Systems",
+        "n_papers": 139
+      }
+    ],
+    "topics": [
+      {
+        "name": "Topic Modeling",
+        "n_papers": 2569
+      },
+      {
+        "name": "Natural Language Processing Techniques",
+        "n_papers": 1403
+      },
+      {
+        "name": "Advanced Graph Neural Networks",
+        "n_papers": 1196
+      },
+      {
+        "name": "Multimodal Machine Learning Applications",
+        "n_papers": 1145
+      },
+      {
+        "name": "Domain Adaptation and Few-Shot Learning",
+        "n_papers": 875
+      },
+      {
+        "name": "Recommender Systems and Techniques",
+        "n_papers": 711
+      },
+      {
+        "name": "Explainable Artificial Intelligence (XAI)",
+        "n_papers": 655
+      },
+      {
+        "name": "Advanced Neural Network Applications",
+        "n_papers": 650
+      },
+      {
+        "name": "Adversarial Robustness in Machine Learning",
+        "n_papers": 627
+      },
+      {
+        "name": "Semantic Web and Ontologies",
+        "n_papers": 611
+      }
+    ],
+    "subfields": [
+      {
+        "name": "Artificial Intelligence",
+        "n_papers": 7537
+      },
+      {
+        "name": "Computer Vision and Pattern Recognition",
+        "n_papers": 2269
+      },
+      {
+        "name": "Information Systems",
+        "n_papers": 2181
+      },
+      {
+        "name": "Computer Networks and Communications",
+        "n_papers": 553
+      },
+      {
+        "name": "Signal Processing",
+        "n_papers": 499
+      },
+      {
+        "name": "Computational Theory and Mathematics",
+        "n_papers": 452
+      },
+      {
+        "name": "Molecular Biology",
+        "n_papers": 412
+      },
+      {
+        "name": "Management Science and Operations Research",
+        "n_papers": 384
+      },
+      {
+        "name": "Health Informatics",
+        "n_papers": 299
+      },
+      {
+        "name": "Computer Science Applications",
+        "n_papers": 216
+      }
+    ],
+    "countries": {
+      "CN": 934,
+      "US": 685,
+      "DE": 268,
+      "IN": 244,
+      "FR": 225,
+      "GB": 197,
+      "IT": 121,
+      "KR": 117,
+      "JP": 104,
+      "CA": 103
+    },
+    "communities": [
+      {
+        "name": "Capabilities and Evaluation of Large Language Models",
+        "n_papers": 1286
+      },
+      {
+        "name": "Retrieval-Augmented Generation for Question Answering",
+        "n_papers": 904
+      },
+      {
+        "name": "Deep Learning for Object Detection and Domain Adaptation",
+        "n_papers": 837
+      },
+      {
+        "name": "Knowledge Graph Construction and Ontology Generation with LLMs",
+        "n_papers": 831
+      },
+      {
+        "name": "Vision-Language Models and Multimodal Reasoning",
+        "n_papers": 787
+      },
+      {
+        "name": "Adversarial Robustness and Security in Graph Neural Networks",
+        "n_papers": 653
+      },
+      {
+        "name": "Graph Neural Networks: Architectures and Applications",
+        "n_papers": 575
+      },
+      {
+        "name": "Deep Reinforcement Learning for Multi-Agent and Robotic Systems",
+        "n_papers": 562
+      },
+      {
+        "name": "Modern Recommender Systems: Graph Neural Networks and Collaborative Filtering",
+        "n_papers": 560
+      },
+      {
+        "name": "Retrieval-Augmented Generation and Vision-Language Models in Medical AI",
+        "n_papers": 532
+      }
+    ],
+    "hf_models": [],
+    "hf_datasets": []
+  }
+}
